@@ -48,8 +48,8 @@ Requires Python 3.9+. If `pip install -e .` complains about editable mode, upgra
 ### Method A: clone and install editable
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
-cd <repository>
+git clone https://github.com/keskarsiddhant-oss/quotes-scraper-siddhant-keskar.git
+cd quotes-scraper-siddhant-keskar
 python -m venv .venv
 ```
 
