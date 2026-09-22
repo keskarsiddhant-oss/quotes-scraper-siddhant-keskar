@@ -73,7 +73,7 @@ playwright install chromium
 ### Method B: install straight from GitHub
 
 ```bash
-pip install "git+https://github.com/<username>/<repository>.git"
+pip install "git+https://github.com/keskarsiddhant-oss/quotes-scraper-siddhant-keskar.git"
 playwright install chromium
 ```
 
