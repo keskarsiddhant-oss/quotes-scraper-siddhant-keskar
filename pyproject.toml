@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quotes-scraper"
+version = "0.1.0"
+description = "Command-line scraper for quotes.toscrape.com with login, CSV memory and duplicate detection."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "playwright",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+quotes-scraper = "quotes_scraper.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
